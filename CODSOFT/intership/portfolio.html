@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshu Bhatt Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1 class="animated-heading">Pranshu Bhatt</h1>
+        <hr class="animated-hr">
+        <p class="animated-text">Web Developer &amp; Tech Enthusiast</p>
+        <style>
+            /* Animated Heading */
+           .animated-heading {
+                animation: fade-in 2s ease-in-out forwards;
+                animation-delay: 0.5s;
+            }
+            @keyframes fade-in {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+    
+            /* Animated HR (Header Line) */
+           .animated-hr {
+                
+                background-size: 0% 2px;
+                background-position: 0% 50%;
+                animation: header-line 5s ease-in-out forwards;
+                animation-delay: 1s;
+            }
+            @keyframes header-line {
+                0% {
+                    background-size: 0% 2px;
+                }
+                100% {
+                    background-size: 100% 2px;
+                }
+            }
+    
+            /* Animated Text */
+           .animated-text {
+                animation: fade-in 2s ease-in-out forwards;
+                animation-delay: 2s;
+            }
+            @keyframes fade-in {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </header>
+
+     <!-- College name with animation -->
+       <p class="college-name"> College Name: Birla Institute of Applied Science</p>
+              <style>
+         .college-name {
+                font-size: 18px;
+                color: #666;
+               margin-top: 20px;
+               animation: college-name 4s infinite;
+               background-image: url(/CODSOFT/);
+            }
+            @keyframes college-name {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+    </header>
+
+
+    <!-- About Section -->
+    <section 
+    <!-- About Section -->
+<section id="pranshubhatt">
+    <img src="/CODSOFT/intership/WhatsApp Image 2024-07-10 at 23.23.37.jpeg" alt="Pranshu Bhatt" height="200" width="100" id="pranshu-image">
+    <style>
+        #pranshubhatt {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        #pranshu-image {
+            border-radius: 50%;
+            animation: move-image 3s ease-in-out forwards;
+        }
+        @keyframes move-image {
+            0% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    
+
+    </style>
+<section>
+    <h2 class="animated-heading">About Me</h2>
+    <p class="animated-text">
+        I'm Pranshu Bhatt, a passionate Web developer with 2+ years of experience in building scalable and efficient solutions. I specialize in web development, machine learning, and data analytics.
+    </p>
+    <style>
+        /* Animated Heading */
+       .animated-heading {
+            animation: fade-in 2s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animated Text */
+       .animated-text {
+            animation: text-reveal 3s ease-in-out forwards;
+            animation-delay: 1s;
+        }
+        @keyframes text-reveal {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            50% {
+                opacity: 0.5;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</section>
+
+<section id="skills">
+           <h2>Skills</h2>
+          <ul>
+              <li>Web Development (HTML, CSS, JavaScript)</li>
+               <li>Machine Learning (Python, TensorFlow)</li>
+                <li>Data Analytics (SQL, Tableau)</li>
+               <li>Cloud Computing (AWS, Azure)</li>
+           </ul>
+      </section>
+      <style>
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #skills li {
+            padding: 10px;
+            border-bottom: 1px solid #f0eded;
+            opacity: 0;
+            animation: fadeIn 5s infinite;
+            animation-delay: calc(5s * var(--index));
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+     
+   
+            
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="https://img.freepik.com/premium-vector/ecommerce-project-banner-landing-page-template-website_541075-1532.jpg" alt="Project 1">
+            <h3>Project 1: E-commerce Website</h3>
+            <p>Developed a responsive e-commerce website using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <img src="/CODSOFT/intership/Unknown.png" alt="Project 2">
+            <h3>Project 2: Chatbot</h3>
+            <p>Designed and developed a conversational chatbot using Python and TensorFlow.</p>
+        </div>
+    </section>
+    <style>
+        #projects {
+            text-align: center;
+        }
+
+       .project {
+            display: inline-block;
+            margin: 20px;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            animation-delay: calc(2s * var(--index));
+        }
+
+       .project img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+       .project h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+      .project p {
+           font-size: 16px;
+           color: #666;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+       }
+    </style>
+   
+
+  <!-- Resume Section -->
+<section id="resume">
+    <h2 class="animated-heading">Resume</h2>
+    <a href="/CODSOFT/intership/RESUME .jpeg" download class="animated-link">Download Resume (PDF)</a>
+    <style>
+        /* Animated Heading */
+       .animated-heading {
+            animation: fade-in 5s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animated Link */
+       .animated-link {
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+       .animated-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        }
+       .animated-link::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+       .animated-link:hover::before {
+            opacity: 0.2;
+        }
+    </style>
+</section>
+
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2 class="animated-heading">Get in Touch</h2>
+    <p class="animated-text">Email: <a href="mailto:BHATTPRANSHU19.com" class="animated-link">BHATTPRANSHU19.com</a></p>
+    <p class="animated-text">Phone: +91 7906482978</p>
+    <style>
+        /* Animated Heading */
+        .animated-heading {
+            animation: fade-in 5s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animated Text */
+        .animated-text {
+            animation: slide-in 5s ease-in-out forwards;
+            animation-delay: 1.5s;
+        }
+        @keyframes slide-in {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Animated Link */
+        .animated-link {
+            transition: color 0.3s ease-in-out;
+        }
+        .animated-link:hover {
+            color: #337ab7; /* change to your desired hover color */
+        }
+    </style>
+</section>
+
+  <!-- Footer -->
+<footer>
+    <p class="animated-text">&copy; 2023 Pranshu Bhatt. All rights reserved.</p>
+    <p class="animated-links">
+        <a href="https://www.linkedin.com/in/pranshu-bhatt-1b2995267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="animated-link">LinkedIn</a> | 
+        <a href="https://github.com/pranshubhatt" class="animated-link">GitHub</a>
+    </p>
+    <style>
+      .animated-text {
+        animation: fade-in 5s infinite;
+      }
+      
+      .animated-link {
+        animation: pulse 5s infinite;
+      }
+      
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+</footer>
+        
+
+</body>
+</html>
+      
